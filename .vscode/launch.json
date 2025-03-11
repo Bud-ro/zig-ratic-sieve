@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "exe",
+            "preLaunchTask": "zig-build-exe",
+            "request": "launch",
+            "type": "cppvsdbg",
+            "program": "${workspaceFolder}/zig-out/bin/zig-ratic-sieve.exe",
+            "args": [
+                "${input:factor}",
+            ],
+            "cwd": "${workspaceFolder}"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "factor",
+            "description": "Enter a number to factor",
+            "type": "promptString",
+        }
+    ]
+}
