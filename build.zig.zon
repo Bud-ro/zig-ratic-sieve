@@ -1,5 +1,6 @@
 .{
-    .name = "zig-ratic-sieve",
+    .name = .zig_ratic_sieve,
+    .fingerprint = 0xe69fecdac4c33ed6,
     .version = "0.0.0",
 
     .dependencies = .{},
